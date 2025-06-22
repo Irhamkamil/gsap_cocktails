@@ -296,8 +296,8 @@ body {
     .content {
       @apply flex flex-col justify-between items-center container mx-auto relative;
 
-      .arrows {
-        @apply flex items-center justify-between w-full absolute;
+      .arrow {
+        @apply flex items-center justify-between w-full absolute top-0 right-0;
 
         button {
           @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-36;
