@@ -118,7 +118,7 @@ body {
         }
 
         .view-cocktails {
-          @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+          @apply space-y-5 text-lg lg:max-w-2xs max-w-xs w-full;
 
           p {
             @apply text-left;
@@ -137,7 +137,7 @@ body {
   }
 
   #cocktails {
-    @apply relative min-h-dvh w-full overflow-hidden;
+    @apply relative min-h-dvh w-full overflow-hidden lg:px-4;
 
     #c-left-leaf {
       @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
